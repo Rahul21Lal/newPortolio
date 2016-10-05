@@ -1,0 +1,23 @@
+section
+{
+    background: #000000;
+}
+
+button
+{
+    width: 125px;
+    height: 50px;
+    font-size: 15px;
+    align-items: center;
+    background-color: #000009;
+    border-color: silver;
+    color: rgb(0, 133, 196);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}

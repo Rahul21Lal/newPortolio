@@ -1,3 +1,10 @@
+body
+{
+    background-color: rgb(0, 133, 196);
+    width: auto;
+    height: auto;
+}
+
 section
 {
     background: #000000;
@@ -10,7 +17,7 @@ button
     font-size: 15px;
     align-items: center;
     background-color: #000009;
-    border-color: silver;
+    border-color: #000000;
     color: rgb(0, 133, 196);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -19,5 +26,19 @@ p
 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    
+}
+
+h1
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+iframe
+{
+    width: 921px;
+    height: 1000px;
+    border-color: transparent;
 }

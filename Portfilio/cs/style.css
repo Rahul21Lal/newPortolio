@@ -59,7 +59,7 @@ h1
 iframe
 {
     width: 100%;
-    height: 1000px;
+    height: 933px;
     border-color: transparent;
 }
 
@@ -82,4 +82,26 @@ iframe
     width: 100%;
     height: 30%;
     position: block-inline;
+}
+
+.openingImage
+{
+    background-image: url('source-code-583537_SMALL.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 950px;
+}
+
+#openingImage
+{
+    background-image: url('source-code-583537_SMALL.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 950px;
 }

@@ -43,10 +43,9 @@ button:hover
 
 .aboutButton:hover
 {
-    border-color: #C2E6F9;
-    background-color: #202020;
     border-width: 1.25px;
     width: 250px;
+    opacity: 0.5;
     vertical-align: 66%;
     border-radius: 5%;
 }
@@ -70,6 +69,7 @@ h1
     text-align: center;
     font-weight: bold;
     color: #00A8FF;
+    opacity: 0.66;
     text-transform: uppercase;
     text-shadow: 0px 1.25px gray;
 }
@@ -108,6 +108,11 @@ iframe
     width: 100%;
     height: 933px;
     border-color: transparent;
+}
+
+#aboutSection
+{
+    height: 1500px;
 }
 
 .header
@@ -152,4 +157,11 @@ iframe
     background-size: cover;
     width: 100%;
     height: 950px;
+}
+
+a
+{
+    text-decoration: none;
+    color: #C2E6F8;
+    font-weight: bold;
 }

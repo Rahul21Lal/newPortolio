@@ -99,6 +99,15 @@ h4
     font-family: 'Play', serif;
     font-size: 17.5px;
     text-align: center;
+    color: #C2E6F9;
+    text-transform: uppercase;
+}
+
+h5
+{
+    font-family: 'Play', serif;
+    font-size: 15px;
+    text-align: center;
     color: lightgray;
     text-transform: uppercase;
 }
@@ -112,7 +121,18 @@ iframe
 
 #aboutSection
 {
-    height: 1500px;
+    height: 750px;
+}
+
+#CVSection
+{
+    height: 2000px;
+}
+
+.aboutImage
+{
+    width: auto;
+    height: auto;
 }
 
 .header

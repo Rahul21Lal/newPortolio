@@ -99,11 +99,20 @@ h4
     font-family: 'Play', serif;
     font-size: 17.5px;
     text-align: center;
-    color: #C2E6F9;
+    color: #85C1E9;
     text-transform: uppercase;
 }
 
 h5
+{
+    font-family: 'Play', serif;
+    font-size: 16.66px;
+    text-align: center;
+    color:#C2E6F9;
+    text-transform: uppercase;
+}
+
+h6
 {
     font-family: 'Play', serif;
     font-size: 15px;
@@ -124,9 +133,14 @@ iframe
     height: 750px;
 }
 
-#CVSection
+#cvSection
 {
-    height: 2000px;
+    height: 2125px;
+}
+
+#projectSection
+{
+    height: 500px;
 }
 
 .aboutImage
@@ -185,3 +199,49 @@ a
     color: #C2E6F8;
     font-weight: bold;
 }
+
+ul
+{
+    list-style-type: none;
+}
+
+li
+{
+    font-family: 'PT Sans Narrow', serif;
+    color: #ffffff;
+}
+
+@media only screen and (min-width: 480px)
+{
+    #cvSection
+    {
+        height: 2333px;
+    }
+}
+
+ .projectButton
+ {
+     font-size: 24px;
+     border-radius: 25px;
+     width: 50px;
+ }
+
+ .projectButton:hover
+ {
+     font-size: 24px;
+     border-radius: 25px;
+     width: 50px;
+     background: #222222;
+ }
+ 
+ .projectButton:active
+ {
+     border: 0px, none, transparent;
+     outline-width: 0px;
+ }
+ 
+ .projectButton::visited
+ {
+     border: 0px, none, transparent;
+     outline-width: 0px;
+ }

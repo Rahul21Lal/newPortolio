@@ -237,11 +237,11 @@ li
  .projectButton:active
  {
      border: 0px, none, transparent;
-     outline-width: 0px;
+     outline:  0px, none, transparent;
  }
  
  .projectButton::visited
  {
      border: 0px, none, transparent;
-     outline-width: 0px;
+     outline:  0px, none, transparent;
  }

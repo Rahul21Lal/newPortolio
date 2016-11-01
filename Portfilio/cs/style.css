@@ -215,7 +215,11 @@ li
 {
     #cvSection
     {
-        height: 2333px;
+        height: 2366px;
+    }
+    #projectSection
+    {
+        height: 750px;
     }
 }
 
@@ -244,4 +248,11 @@ li
  {
      border: 0px, none, transparent;
      outline:  0px, none, transparent;
+ }
+
+ #projectBody
+ {
+     max-width: 100%;
+     position: relative;
+     margin: auto;
  }

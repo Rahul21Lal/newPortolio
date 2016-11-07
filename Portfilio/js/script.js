@@ -1,34 +1,35 @@
 var slideIndex = 1;
 showSlides(slideIndex);
 
-function slideIncrement(n)
+function plusSlides(n)
 {
-    showSlides(slideIndex += n);
+  showSlides(slideIndex += n);
 }
 
 function currentSlide(n)
 {
-    showSlides(slideIndex = n);
+  showSlides(slideIndex = n);
 }
 
 function showSlides(n)
 {
-    var i;
-    var slides = document.getElementsByClassName("fadingSlide");
-    
-    if(n > slides.length)
-    {
-        slideIndex = 1;
-    }
-    else if(n < 1)
-    {
-        slideIndex = slides.length;
-    }
+    var i = 0; 
 
-    for(i = 0; i < slides.length; i++)
-    {
-        slides[i].style.display = "none";
-    }
+  var slides = document.getElementsByClassName("fadingSlide");
 
-    slides[slideIndex - 1].style.display = "block";
+  if (n > slides.length)
+  {
+      slideIndex = 1;
+  }
+  else if (n < 1)
+  {
+      slideIndex = slides.length;
+  }
+  
+  for (; i < slides.length; i++)
+  {
+      slides[i].style.display = "none"; 
+  }
+
+  slides[slideIndex-1].style.display = "block";
 }

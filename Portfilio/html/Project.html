@@ -13,55 +13,50 @@
                  background: #151515;
              }
          </style>
-
-         <script src="..\js\script.js"></script>
     </head>
 
-    <body>
-        <!--Header-->
-        <div id="mainBody" align="center">
-            <div id="projectBody" >
-                <h1>Projects</h1>
-                <!--Slideshow-->
-                <!--Link Reference: http://www.w3schools.com/howto/howto_js_slideshow.asp -->
-                <div id="projectSlideshow">
-
-                    <div id="1" class="fadingSlide">
-                        <img src="..\images\Java Calculator.png" style="width:666px" class="projectImage" />
-                        <div class="slideCaption">
-                            <h5>Java Calculator</h5>
-                            <p>
-                                As the project of one of the programming concepts at Computer Power Plus. This calculator is made to perform basic numeric operation such as adding and multiplying of two values. Also it has special trigometic functions that visable if selected. This is done by using Java programming language and Netbeans IDE 6.1 to construct the application.
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <button id="previous" class="projectButton" onclick="slideIncrement(-1)">&larr;</button>
-                    <button id="next" class="projectButton" onclick="slideIncrement(1)">&rarr;</button>
-
-                    <div id="2" class="fadingSlide">
-                        <img src="..\images\Karate Club - Pakuranga Homepage.png" style="width:666px;" class="projectImage" />
-                        <div class="slideCaption">
-                            <h5>Pakuranga Karate Club Website</h5>
-                            <p>
-                                As part of a school project, I did for my year 12 Computing and Information Technology course. The site is made for a fictionaous martial arts club to help increase the number of members joining. This is done using HTML/CSS, Microsoft Sharepoint Designer, and Adobe Photoshop.
-                                
-                                I should point out that this site is not active.
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <div id="3" class="fadingSlide">
-                        <img src="..\images\" />
-                        <div class="slideCaption">
-                            <h5></h5>
-                            <p>
-                                
-                            </p>
-                        </div>
-                    </div>
+<body onload="plusSlides(0)">
+         <script src="..\js\script.js"></script>
+         
+         <div id="projectBody">
+                  <h1>Projects</h1>
+                  <!--Slideshow-->
+                 <!--Link Reference: http://www.w3schools.com/howto/howto_js_slideshow.asp -->
+                 
+            <div class="slideshow-container" onclick="plusSlides(0)" align="center">
+                <div class="fadingSlide">
+                    <img src="..\images\Karate Club - Pakuranga Homepage.png" class="projectImage">
+                    <h5>Pakuranga Karate Club Website</h5>
+                    <p>
+                        As part of a school project, I did for my year 12 Computing and Information Technology course. The site is made for a fictionaous martial arts club to help increase the number of members joining. This is done using HTML/CSS, Microsoft Sharepoint Designer, and Adobe Photoshop.
+                        <br><br>
+                        I should point out that this site is not active.
+                    </p>
                 </div>
+
+                <div class="fadingSlide">
+                    <img src="..\images\Java Calculator.png" class="projectImage">
+                    <h5>Java Calculator</h5>
+                    <p>
+                        As the project of one of the programming concepts at Computer Power Plus. This calculator is made to perform basic numeric operation such as adding and multiplying of two values. Also it has special trigometic functions that visable if selected. This is done by using Java programming language and Netbeans IDE 6.1 to construct the application.
+                        <br><br>
+                    </p>
+                </div>
+
+                <div class="fadingSlide">
+                    <img src="..\images\Nandoso - Live Chat.png" class="projectImage">
+                    <h5>Nandoso Application</h5>
+                    <p>
+                        During the second phase of the Microsoft Student Accelerator. Students were tasked to create a web application for the Mt Eden's Nandoso restaurant (A fictitious version of Nandos). The main features include real-time live chat (using SignalR), and feedback page using Facebook plugin for comments. 
+                        <br><br>
+                        Link: <a href="http://nandosomteden.azurewebsites.net/index.html">http://nandosomteden.azurewebsites.net/index.html</a>
+                    </p>
+                </div>
+
+                <a  onclick="plusSlides(-1)"><button class="prev">&#10094;</button></a>
+                <a onclick="plusSlides(1)"><button class="next">&#10095;</button></a>
+                <br><br>
             </div>
         </div>
-    </body>
+      </body>
 </html>

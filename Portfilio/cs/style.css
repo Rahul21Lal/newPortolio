@@ -140,9 +140,9 @@ iframe
     background-color: #111111;
 }
 
-#cvSection
+.Resume
 {
-    height: 2125px;
+    height: 5000px;
 }
 
 #projectSection
@@ -221,7 +221,7 @@ li
 
 @media only screen and (min-width: 480px) and (max-width: 720px)
 {
-    #cvSection
+    .Resume
     {
         height: 2366px;
     }
